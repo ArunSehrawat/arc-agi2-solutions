@@ -12,7 +12,7 @@ A collection of **problem–program pairs** for inspection and for possible use 
 
 | File | Solvers | Origin |
 |------|---------|--------|
-| `our_task_solutions.py` | 222 | Our manually written for this repository |
+| `our_task_solutions.py` | 222 | Manually written for this repository (**our main contribution**) |
 | `barc_task_solutions.py` | 158 | Converted [BARC seed](https://github.com/xu3kev/BARC/tree/master/seeds) programs |
 | `llm_task_solutions.py` | 37 | Additional solvers for tasks not already covered |
 
@@ -22,7 +22,7 @@ A collection of **problem–program pairs** for inspection and for possible use 
 
 | File | Description |
 |------|-------------|
-| `our_task_solutions.py` | Manually written `solve_<task_id>` functions, plus `verify_solution_outputs`. |
+| `our_task_solutions.py` | Manually written `solve_<task_id>` functions, plus `verify_solution_outputs` (**our main contribution**).|
 | `barc_task_solutions.py` | Converted BARC seeds in the same `solve_<task_id>` format. |
 | `llm_task_solutions.py` | Additional verified solvers in the same format. |
 | `grid_utils.py` | Shared grid helpers used by `our_task_solutions.py` and `llm_task_solutions.py`. |
