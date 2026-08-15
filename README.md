@@ -72,7 +72,7 @@ The repository also includes notebook-based visualizations comparing:
 | File | Description |
 |------|-------------|
 | `our_task_solutions.py` | 222 manually written `solve_<task_id>` functions. **Main contribution.** |
-| `barc_task_solutions.py` | 158 BARC seed conversions using the same format. |
+| `barc_task_solutions.py` | 158 [BARC seed](https://github.com/xu3kev/BARC/tree/master/seeds) conversions using the same format. |
 | `llm_task_solutions.py` | 37 additional verified solutions. |
 | `grid_utils.py` | Shared grid utilities. |
 | `barc_common.py` | BARC grid utilities adapted for ARC conventions. |
@@ -117,7 +117,7 @@ pip install notebook
 
 ## BARC conversions
 
-Some solutions are converted from the [BARC seed programs](https://github.com/xu3kev/BARC/tree/master/seeds).
+Solutions are converted from the [BARC seed programs](https://github.com/xu3kev/BARC/tree/master/seeds).
 
 BARC seeds that use `[x, y]` indexing are wrapped with `_barc_xy` to match the official ARC `[row, col]` convention.
 
