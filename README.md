@@ -14,7 +14,7 @@ A collection of **problem–program pairs** for inspection and for possible use 
 |------|---------|--------|
 | `our_task_solutions.py` | 222 | Manually written for this repository (**our main contribution**) |
 | `barc_task_solutions.py` | 158 | Converted [BARC seed](https://github.com/xu3kev/BARC/tree/master/seeds) programs |
-| `llm_task_solutions.py` | 37 | Additional solvers for tasks not already covered |
+| `llm_task_solutions.py` | 37 | Additional solvers for tasks not already covered (**obtained with an LLM, our other contribution**)|
 
 34 task IDs appear in both `our_task_solutions.py` and `barc_task_solutions.py`. Across the three files there are **383 unique** training-task IDs (of 1000). All listed solvers match every official train and test pair. Remaining training tasks and all 120 public evaluation tasks are left unsolved rather than guessed.
 
@@ -24,7 +24,7 @@ A collection of **problem–program pairs** for inspection and for possible use 
 |------|-------------|
 | `our_task_solutions.py` | Manually written `solve_<task_id>` functions, plus `verify_solution_outputs` (**our main contribution**).|
 | `barc_task_solutions.py` | Converted BARC seeds in the same `solve_<task_id>` format. |
-| `llm_task_solutions.py` | Additional verified solvers in the same format. |
+| `llm_task_solutions.py` | Additional verified solvers in the same format (**obtained with an LLM, our other contribution**). |
 | `grid_utils.py` | Shared grid helpers used by `our_task_solutions.py` and `llm_task_solutions.py`. |
 | `barc_common.py` | BARC grid helpers from [BARC `common.py`](https://github.com/xu3kev/BARC/tree/master/seeds). |
 | `validate.py` | Checks every solver against official train and test pairs. |
